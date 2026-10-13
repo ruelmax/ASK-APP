@@ -1,38 +1,16 @@
-# Melike & Batuhan ❤️ Özel Web Uygulaması
+# Melike & Batuhan ❤️ Özel Aşk Portalı
 
-Bu proje Melike ve Batuhan için özel olarak geliştirilmiş romantik çift portalıdır.
+Bu proje, Melike ve Batuhan için özel olarak hazırlanmış, canlı Firebase bulut veritabanı senkronizasyonlu web uygulamasıdır.
 
-## 🚀 Kurulum ve Çalıştırma (Lokal)
+## 🚀 GitHub'a Yükleme ve Yayınlama (Sıfırdan)
 
-1. Gerekli bağımlılıkları yükleyin:
-```bash
-npm install
-```
+1. İndirdiğiniz bu zip dosyasını bir klasöre çıkartın.
+2. Klasör içindeki **`index.html`** dosyasını GitHub deponuza yükleyin (`Upload files` -> `Commit changes`).
+3. GitHub deponuzun **Settings -> Pages** sekmesine gidin.
+4. **Branch** kısmından `main` seçip **Save** butonuna basın.
+5. 1 dakika içinde siteniz canlı bağlantı linkiyle yayında olacaktır!
 
-2. Geliştirme sunucusunu başlatın:
-```bash
-npm run dev
-```
-
-3. Üretim (Production / Sunucu) için derleme:
-```bash
-npm run build
-```
-Bu komut `dist/` klasörü içinde statik HTML/CSS/JS dosyaları üretecektir.
-
-## 🌐 Sunucuya Yükleme (Hosting)
-
-### 1. Vercel veya Netlify (En Kolay & Ücretsiz)
-- Projeyi bir GitHub reposuna yükleyin veya `dist` klasörünü Netlify / Vercel paneline sürükleyip bırakın.
-- Build command: `npm run build`
-- Output directory: `dist`
-
-### 2. Kendi Linux Sunucunuz (Nginx / Apache / cPanel)
-- `npm run build` komutunu çalıştırın.
-- Oluşan `dist` klasörünün içindeki tüm dosyaları sunucunuzun `public_html` veya `/var/www/html` dizinine yükleyin.
-
-## 🔑 Varsayılan Giriş Bilgileri
-- **Melike Girişi:** Şifre: `melike123`
-- **Batuhan (Yönetici) Girişi:** Şifre: `batuhan123`
-- **Ortak Acil Şifre:** `aşkımız`
-*(Batuhan yönetim panelinden tüm şifreleri ve içerikleri değiştirebilir.)*
+## 🔑 Giriş Bilgileri:
+- **Melike:** `melike123`
+- **Batuhan (Yönetici):** `batuhan123`
+- **Ortak:** `aşkımız`
